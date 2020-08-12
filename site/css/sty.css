@@ -1,0 +1,420 @@
+
+body{
+	  	
+	background-color: #fff;
+ 		
+	
+}
+p{
+	font-size: 1.3em;
+}
+
+#logo-img{
+			background: url('../image/ti.jpg') no-repeat;
+			background-size: 100%;
+			width: 250px;
+			height:200px;
+			margin-top: 10px;
+			margin-bottom: -5px;
+			margin-left: 0;	
+
+}
+@media(min-width: 1200px){
+.navbar-brand h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3.6em;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:-25px;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left:0;
+
+}
+}
+@media(max-width: 1199px){
+.navbar-brand h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.6em;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:25px;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left:0;
+
+}
+}
+@media(min-width: 100px)and(max-width: 960px){
+.navbar-brand h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.6em;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:25px;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left:0;
+
+}
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{ 
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: -22px;
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: left;
+	
+	
+
+}
+
+#nav-list a:hover{
+/* When we just put courser of mouse on list it becomes white in back*/
+
+	background-color: #b3b3b3;
+
+
+	
+}
+#nav-list a:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.sub-menu-1{
+	display: none;
+}
+#nav-list a span{
+	font-size: 1.5em;
+	padding: 15px;
+	font-style: italic;
+}
+#nav-list .fa{
+		color: #951C49;
+		text-align: left;
+		font-size: 1.5em;
+		padding: 15px;
+		font-style: italic;
+		margin-top: -7px;
+
+}
+#navi{
+	background-color:#0d0d0d;
+	
+}
+#navi a{
+	color: #d9d9d9;
+	font-style: normal;
+	text-align: left;
+
+}
+
+#navi a:hover{
+	background:  #ff9933;
+	width: auto;
+}
+
+video {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+@media(min-width: 1200px){
+	.contt{
+		position: absolute;
+   		top: 50%;
+  		right: auto;
+  		margin-left: 70px;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		text-align: left;
+		color: #ffff4d;
+		margin-right:450px;
+	  }
+}
+#aw{
+	position: absolute;
+   top: 80%;
+  right: -50px;
+  font-size: 2em;
+  margin-left: 50px;
+  margin-right: 1654px;
+  color: 	 #ffff99;	
+  text-align: center;
+
+}
+#aw:hover{
+	background: none;
+}
+/*
+#menu-tile,#touch,#cloud{
+	height: 333px;
+	padding: 20px;
+	margin-left:28px;
+	margin-right: 28px;
+	width: 500px;
+	margin-top: -25px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+		
+}*/
+
+#menu-tile, #touch,#cloud{
+	height: 334px;
+	width: 100%;	
+	position: relative;
+	border: 2px solid #3F0C1F;
+	margin-bottom: 15px;
+	margin-top:15px;
+
+}
+
+
+#menu-tile{
+	background: url('../image/robo.jpg') no-repeat;
+	
+	background-position: center;
+}
+#touch{
+	background: url('../image/it.jpg') no-repeat;
+
+	background-position: center;
+}
+#cloud{
+	background: url('../image/fs.jpg') no-repeat;
+
+	background-position: center;
+}
+#menu-tile span, #touch span, #cloud span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.pre h1{
+	color: 	 #ff1a1a;
+	text-align: center;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size:3.7em;
+	font-family: 'Sriracha', cursive;
+	margin-top: 25px;
+}
+.pre h3{
+	color: red;
+	text-align: center;
+	font-style: bold;
+	font-size:2.5em;
+	color: 	 #79ff4d;	
+
+}
+
+@media(min-width: 1200px){
+#inno{
+	width: 700px;
+	height: 850px;
+	margin-top:19px;
+	margin-bottom: 10px;
+	padding: 0;
+
+	margin-right: 28px;
+
+}
+#bulb{
+	width: 570px;
+	height: 425px;
+	margin-top: 19px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: 80px;
+	
+
+}
+#vr{
+	width: 465px;
+	height: 423px;
+	margin-top: 19px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: 33px;
+	
+
+}
+#fg{
+	width: 570px;
+	height: 441px;
+
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: 80px;
+	margin-top: -16px;
+}
+#thh{
+	width: 465px;
+	height: 427px;
+	margin-top: -7.2px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: 33px;
+	
+}
+
+#vr{
+	background: url('../image/vr.jpg') no-repeat;
+	
+	background-position: center;
+}
+#inno{
+	background: url('../image/innovation.jpg') no-repeat;
+	
+	background-position: center;
+}
+#bulb{
+	background: url('../image/blb.jpg') no-repeat;
+	
+	background-position: center;
+}
+#fg{
+	background: url('../image/5g.jpg') no-repeat;
+	
+	background-position: center;
+}
+#thh{
+	background: url('../image/touch.jpg') no-repeat;
+	
+	background-position: center;
+}
+}
+
+@media(max-width: 1199px){
+#inno{
+	width: auto;
+	height: 420px;
+	margin-top:19px;
+	margin-bottom: 10px;
+	padding: 0;
+
+	
+
+}
+
+#bulb{
+	width: auto;
+	height: 420px;
+	margin-top: 19px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left:auto;
+	
+
+}
+#vr{
+	width: auto;
+	height: 420px;
+	margin-top: 19px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-left: auto;
+	
+
+}
+
+#inno{
+	background: url('../image/gg.jpg') no-repeat;
+	
+	background-position: center;
+}
+
+#vr{
+	background: url('../image/vr.jpg') no-repeat;
+	
+	background-position: center;
+}
+
+#bulb{
+	background: url('../image/blb.jpg') no-repeat;
+	
+	background-position: center;
+}
+
+
+}
+.pi h1{
+	color:	#24dbc9;	
+
+	text-align: left;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size:2.9em;
+	font-family: 'Sriracha', cursive;
+	margin-top:-800px;
+	margin-left: 36px;
+	margin-bottom: auto;
+}
+
+
+#wee{
+	background: url('../image/ss.jpg') no-repeat;
+	background-size: 100%;
+	width: auto;
+	height: 1000px;
+	margin-bottom: auto;
+}
+
+#signin{
+	margin-left: 30px;
+	margin-right: 50px;
+	
+	color: #ffffff;
+	font-size: 1.2em;
+	text-align: center;	
+	width: 885px;
+	margin-bottom: auto;
+	
+}
+h4{
+	color:#24dbc9;
+	text-align: left;
+	font-style: bold;
+	font-size:2.1em;
+	margin-top: 10px;
+	margin-left: auto;
+}
+h5{
+	color: red;
+}
+.fa{
+	padding: 15px;
+	margin-top: 5px;
+	margin-left: auto;	
+	color: 	 #ffffff;
+}
+button.navbar-toggler,.navbar-toggler-icon{
+	border: 1.5px solid #61122f;
+	padding: 0;
+	width: 60px;
+	height: 30px;
+}
